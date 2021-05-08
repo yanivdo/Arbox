@@ -1,0 +1,75 @@
+.title{
+  text-align: center;
+}
+.gridWrapper {
+    max-width: 640px;
+    min-width: 480px;
+    width: 100%;    
+    margin: 50px auto 0;
+  }
+
+  .floors {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .floor {
+    item-align: stretch;
+    flex-grow: 1;
+    border-bottom: 1px solid #333;
+    
+    text-align: center;
+    
+    font-family: sans-serif;
+    font-size: 36px;
+  }
+  
+  .floor .label {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0.2em;
+    border: 5px ridge #f0f0f0;
+    
+    background-color: white;
+  }
+
+  .floorsWrapper .elevatorsSection{
+    display: flex;
+    margin: auto;
+  }
+
+  .floorsWrapper .floorSection{
+    display: flex;
+  }
+
+  .floorSection .floorNum{
+    width:10px;
+    padding: 15px 0px 0px 0px;
+  }
+.floorSection .elevatorCall{
+  padding: 15px 0px 0px 0px;
+  width: 20px;
+  cursor: pointer;
+}
+  .elevatorsSection .elevatorNum{
+    width: 80px;
+    height: 45px;
+    margin: 0px 5px;
+    margin: 2px 5px;
+    border: 1px solid;
+    text-align: center;
+  }
+
+  .elevatorImg{
+    width:40px;
+  }
+
+  .free{
+    color:green;
+  }
+
+  .Occupied{
+    pointer-events: none;
+    color:red;
+  }
